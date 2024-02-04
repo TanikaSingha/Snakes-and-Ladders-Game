@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+h2,h3{
+    text-align: center;
+    color: white;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+.pstyle{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.rowone,.rowtwo,.rowthree,.rowfour,.rowfive,.rowsix,.rowseven,.roweight,.rownine,.rowten{
+    display: flex;
+}
+.cell{
+    width: 47px;
+    height: 47px;
+    border: solid transparent 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.board{
+    background-image: url(gameboard.jpg);
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+}
+.boardgame{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.player-controls{
+    display: flex;
+    justify-content: space-around;
+    opacity: 0;
+}
+button{
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    transition:0.2s ease-in-out 0s;
+    background-color: aquamarine;
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+.start-game{
+    display: flex;
+    justify-content: center;
+}
+#start-game{
+    height: 80px;
+    width: 400px;
+    border-radius: 55px;
+    font-size: 30px;
+}
+.show{
+    opacity: 1;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.red{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.blue{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.pawn1,.pawn2{
+    transition: all 0.5s ease;
+}
+button:hover{
+    cursor: pointer;
+    width: 202px;
+    box-shadow: 2px 2px 10px black;
+}
